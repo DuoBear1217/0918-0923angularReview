@@ -1,0 +1,30 @@
+[
+  {
+  "name": "Duo",
+  "phone": "0978445566",
+  "sex": "male",
+  "age": 29,
+  "password": "qwer12345"
+},
+{
+  "name": "Carl",
+  "phone": "0978445566",
+  "sex": "male",
+  "age": 27,
+  "password": "asd12345"
+},
+{
+  "name": "Jeff",
+  "phone": "0987654321",
+  "sex": "male",
+  "age": 28,
+  "password": "zxcv1234"
+},
+{
+  "name": "Jimmy",
+  "phone": "0911223344",
+  "sex": "male",
+  "age": 26,
+  "password": "wert1234"
+}
+]

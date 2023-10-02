@@ -1,0 +1,7 @@
+<p>form works!</p>
+<form [formGroup]="reviewForm" #test>
+  <label for="account">帳號</label><input formControlName="act" id="act" type="text"><br>
+  <label for="pwd">密碼</label><input formControlName="pwd" id="pwd" type="password"><br>
+  <button type="submit" [disabled]="reviewForm.invalid" routerLink="center">繳交!</button>
+</form>
+<h1 (click) = 'testChild()'>tester</h1>

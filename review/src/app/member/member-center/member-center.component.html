@@ -1,0 +1,9 @@
+
+<div #test+i *ngFor="let member of members;let i = index">
+  <h1>姓名: {{ member.name }}</h1>
+  <h3>手機: {{ member.phone }} </h3>
+  <h3>性別: {{ member.sex }} </h3>
+  <h3>年紀: {{ member.age }} </h3>
+  <h5>{{ i }}</h5>
+  <hr>
+</div>
